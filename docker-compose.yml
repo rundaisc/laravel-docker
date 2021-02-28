@@ -1,0 +1,56 @@
+version: "3"
+services:
+  nginx:
+    container_name: nginx
+    restart: always
+    build:
+      context: ./components/nginx
+      dockerfile: Dockerfile
+    ports:
+    - 80:80
+    - 443:443
+    networks:
+      - web-server
+    volumes:
+    - E:/wnmp/www:/var/www
+    - ./conf/nginx:/etc/nginx/conf.d
+    - ./logs/nginx:/var/log/nginx
+    links:
+      - php73
+      - redis
+    stdin_open: true
+    tty: true
+  php73:
+    container_name: php73
+    restart: always
+    build:
+      context: ./components/php
+      dockerfile: Dockerfile
+    volumes:
+      - E:/wnmp/www:/var/www
+      - ./conf/php:/usr/local/etc/php/conf.d
+      - ./logs/php:/var/logs/php
+    ports:
+    - 9000:9000
+    links:
+      - redis
+    networks:
+      - web-server
+    stdin_open: true
+    tty: true
+  redis:
+    image: redis:alpine3.13
+    container_name: redis
+    volumes:
+      - ./conf/redis/redis.conf:/usr/local/etc/redis/redis.conf
+      - ./logs/redis:/logs
+    command:
+        redis-server /usr/local/etc/redis/redis.conf
+    ports:
+      - 6379:6379
+    networks:
+      - web-server
+    stdin_open: true
+    tty: true
+networks:
+  web-server:

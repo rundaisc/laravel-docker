@@ -1,0 +1,27 @@
+1:C 28 Feb 2021 15:18:44.513 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 28 Feb 2021 15:18:44.515 # Redis version=6.2.0, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 28 Feb 2021 15:18:44.516 # Configuration loaded
+1:M 28 Feb 2021 15:18:44.518 * monotonic clock: POSIX clock_gettime
+1:M 28 Feb 2021 15:18:44.520 * Running mode=standalone, port=6379.
+1:M 28 Feb 2021 15:18:44.522 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:M 28 Feb 2021 15:18:44.523 # Server initialized
+1:M 28 Feb 2021 15:18:44.525 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 28 Feb 2021 15:18:44.526 * Ready to accept connections
+1:M 28 Feb 2021 15:21:04.274 - Accepted 172.18.0.2:38030
+1:M 28 Feb 2021 15:21:04.350 - Client closed connection
+1:M 28 Feb 2021 15:21:40.766 - Accepted 172.18.0.2:38038
+1:M 28 Feb 2021 15:21:41.122 - Client closed connection
+1:M 28 Feb 2021 15:21:45.038 - DB 0: 2 keys (2 volatile) in 4 slots HT.
+1:M 28 Feb 2021 15:21:50.061 - DB 0: 2 keys (2 volatile) in 4 slots HT.
+1:M 28 Feb 2021 15:21:55.075 - DB 0: 2 keys (2 volatile) in 4 slots HT.
+1:M 28 Feb 2021 15:22:00.090 - DB 0: 2 keys (2 volatile) in 4 slots HT.
+1:M 28 Feb 2021 15:22:01.397 - Accepted 172.18.0.2:38042
+1:M 28 Feb 2021 15:22:02.670 - Client closed connection
+1:M 28 Feb 2021 15:22:05.104 - DB 0: 2 keys (2 volatile) in 4 slots HT.
+1:M 28 Feb 2021 15:22:10.121 - DB 0: 2 keys (2 volatile) in 4 slots HT.
+1:M 28 Feb 2021 15:22:15.136 - DB 0: 2 keys (2 volatile) in 4 slots HT.
+1:M 28 Feb 2021 15:22:20.152 - DB 0: 2 keys (2 volatile) in 4 slots HT.
+1:M 28 Feb 2021 15:22:25.173 - DB 0: 2 keys (2 volatile) in 4 slots HT.
+1:M 28 Feb 2021 15:22:30.193 - DB 0: 2 keys (2 volatile) in 4 slots HT.
+1:M 28 Feb 2021 15:22:35.211 - DB 0: 2 keys (2 volatile) in 4 slots HT.
+1:M 28 Feb 2021 15:22:40.230 - DB 0: 2 keys (2 volatile) in 4 slots HT.
