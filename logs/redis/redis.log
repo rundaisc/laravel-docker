@@ -25,3 +25,163 @@
 1:M 28 Feb 2021 15:22:30.193 - DB 0: 2 keys (2 volatile) in 4 slots HT.
 1:M 28 Feb 2021 15:22:35.211 - DB 0: 2 keys (2 volatile) in 4 slots HT.
 1:M 28 Feb 2021 15:22:40.230 - DB 0: 2 keys (2 volatile) in 4 slots HT.
+1:C 01 Mar 2021 15:09:49.717 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 01 Mar 2021 15:09:49.720 # Redis version=6.2.0, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 01 Mar 2021 15:09:49.722 # Configuration loaded
+1:M 01 Mar 2021 15:09:49.725 * monotonic clock: POSIX clock_gettime
+1:M 01 Mar 2021 15:09:49.730 * Running mode=standalone, port=6379.
+1:M 01 Mar 2021 15:09:49.732 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:M 01 Mar 2021 15:09:49.734 # Server initialized
+1:M 01 Mar 2021 15:09:49.736 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 01 Mar 2021 15:09:49.739 * DB loaded from append only file: 0.000 seconds
+1:M 01 Mar 2021 15:09:49.740 * Ready to accept connections
+1:M 01 Mar 2021 15:21:57.548 - Accepted 172.18.0.3:57536
+1:M 01 Mar 2021 15:21:57.706 - Client closed connection
+1:M 01 Mar 2021 15:22:02.167 - DB 0: 2 keys (2 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:22:07.188 - DB 0: 2 keys (2 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:22:09.659 - Accepted 172.18.0.3:57540
+1:M 01 Mar 2021 15:22:09.794 * 10 changes in 300 seconds. Saving...
+1:M 01 Mar 2021 15:22:09.797 * Background saving started by pid 23
+23:C 01 Mar 2021 15:22:09.797 - RDB: 2 MB of memory used by copy-on-write
+23:C 01 Mar 2021 15:22:09.801 * DB saved on disk
+23:C 01 Mar 2021 15:22:09.803 * RDB: 2 MB of memory used by copy-on-write
+1:M 01 Mar 2021 15:22:09.898 * Background saving terminated with success
+1:M 01 Mar 2021 15:22:11.220 - Client closed connection
+1:M 01 Mar 2021 15:22:12.211 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:22:17.236 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:22:22.257 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:22:27.279 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:22:32.305 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:22:37.331 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:22:42.355 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:22:47.380 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:22:52.407 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:22:57.434 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:23:02.460 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:23:07.486 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:23:12.511 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:23:17.534 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:23:22.558 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:23:25.338 - Accepted 172.18.0.3:57550
+1:M 01 Mar 2021 15:23:26.649 - Client closed connection
+1:M 01 Mar 2021 15:23:27.580 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:23:32.599 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:23:33.302 - Accepted 172.18.0.3:57556
+1:M 01 Mar 2021 15:23:34.762 - Client closed connection
+1:M 01 Mar 2021 15:23:36.350 - Accepted 172.18.0.3:57562
+1:M 01 Mar 2021 15:23:37.268 - Client closed connection
+1:M 01 Mar 2021 15:23:37.614 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:23:42.635 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:23:43.161 - Accepted 172.18.0.3:57580
+1:M 01 Mar 2021 15:23:43.162 - Accepted 172.18.0.3:57582
+1:M 01 Mar 2021 15:23:43.852 - Client closed connection
+1:M 01 Mar 2021 15:23:44.076 - Client closed connection
+1:M 01 Mar 2021 15:23:45.794 - Accepted 172.18.0.3:57590
+1:M 01 Mar 2021 15:23:45.853 - Accepted 172.18.0.3:57592
+1:M 01 Mar 2021 15:23:46.737 - Client closed connection
+1:M 01 Mar 2021 15:23:46.972 - Client closed connection
+1:M 01 Mar 2021 15:23:47.644 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:23:48.053 - Accepted 172.18.0.3:57600
+1:M 01 Mar 2021 15:23:49.288 - Client closed connection
+1:M 01 Mar 2021 15:23:52.663 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:23:54.817 - Accepted 172.18.0.3:57616
+1:M 01 Mar 2021 15:23:55.549 - Client closed connection
+1:M 01 Mar 2021 15:23:56.114 - Accepted 172.18.0.3:57622
+1:M 01 Mar 2021 15:23:57.549 - Accepted 172.18.0.3:57626
+1:M 01 Mar 2021 15:23:57.599 - Client closed connection
+1:M 01 Mar 2021 15:23:57.676 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:23:58.788 - Client closed connection
+1:M 01 Mar 2021 15:24:02.699 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:24:07.724 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:24:12.750 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:24:17.776 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:24:22.799 - DB 0: 3 keys (3 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:24:27.822 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:24:32.846 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:24:37.869 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:24:42.893 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:24:47.919 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:24:52.946 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:24:57.973 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:25:02.997 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:25:08.017 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:25:13.041 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:25:18.068 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:25:23.095 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:25:28.123 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:25:33.153 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:25:38.180 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:25:43.208 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:25:48.237 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:25:53.263 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:25:58.292 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:26:03.320 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:26:08.349 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:26:13.377 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:26:18.404 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:26:23.436 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:26:28.463 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:26:33.492 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:26:38.519 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:26:43.547 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:26:48.574 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:26:53.602 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:26:58.624 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:27:03.645 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:27:08.672 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:27:10.082 * 10 changes in 300 seconds. Saving...
+1:M 01 Mar 2021 15:27:10.086 * Background saving started by pid 24
+24:C 01 Mar 2021 15:27:10.087 - RDB: 0 MB of memory used by copy-on-write
+24:C 01 Mar 2021 15:27:10.100 * DB saved on disk
+24:C 01 Mar 2021 15:27:10.102 * RDB: 0 MB of memory used by copy-on-write
+1:M 01 Mar 2021 15:27:10.189 * Background saving terminated with success
+1:M 01 Mar 2021 15:27:13.707 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:27:18.733 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:27:23.760 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:27:28.787 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:27:33.812 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:27:38.840 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:27:43.865 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:27:48.892 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:27:53.923 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:27:58.950 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:28:03.978 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:28:09.006 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:28:14.032 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:28:19.060 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:28:24.086 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:28:29.114 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:28:34.141 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:28:39.169 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:28:44.200 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:28:49.224 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:28:54.250 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:28:59.275 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:29:04.298 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:29:09.324 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:29:14.349 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:29:19.375 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:29:24.402 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:29:29.428 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:29:34.452 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:29:39.475 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:29:44.503 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:29:49.529 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:29:54.557 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:29:59.586 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:30:04.615 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:30:09.643 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:30:14.672 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:30:19.699 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:30:24.728 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:30:29.756 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:30:34.786 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:30:39.810 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:30:44.837 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:30:49.862 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:30:54.883 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:30:59.908 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:31:04.937 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:31:09.959 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:31:14.983 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 01 Mar 2021 15:31:20.003 - DB 0: 1 keys (1 volatile) in 4 slots HT.

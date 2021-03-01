@@ -28,7 +28,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - E:/wnmp/www:/var/www
-      - ./conf/php:/usr/local/etc/php/conf.d
+#      - ./conf/php/custom.ini:/usr/local/etc/php/conf.d/custom.ini
       - ./logs/php:/var/logs/php
     ports:
     - 9000:9000
