@@ -1,0 +1,15 @@
+version: "3"
+services:
+  cloud-portal:
+    container_name: cloud-portal-v2
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 10080:80
+      - 10081:443
+    volumes:
+      - ./web/kiplepark-cloud-portal:/var/www/html
+      - ./conf/nginx:/etc/nginx/conf.d
+      - ./conf/supervisor:/etc/supervisor.d
+      - ./logs:/var/log
