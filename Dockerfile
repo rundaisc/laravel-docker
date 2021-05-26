@@ -26,13 +26,16 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     php -- --install-dir=/usr/bin/ --filename=composer \
     && composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 
+#RUN sed '/user/d' /etc/nginx/nginx.conf
 
-
+#RUN echo "user www-data www-data;">>/etc/nginx/nginx.conf
 
 ENV TZ Asia/Kuala_Lumpur
 
 RUN apk add tzdata && cp /usr/share/zoneinfo/${TZ} /etc/localtime \
     && echo ${TZ} > /etc/timezone
+
+
 
 EXPOSE 80 443
 
